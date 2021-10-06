@@ -4,19 +4,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace Projeto_Integrador_Construção_do_Sistema
 {
-    public partial class CadastroUsuario : Form
+    public partial class Home : Form
     {
         //Fields
         private IconButton currentBtn;
         private Panel leftBoarderBtnt;
         private Form currentChildForm;
         //Constructor
-        public CadastroUsuario()
+        public Home()
         {
             InitializeComponent();
             leftBoarderBtnt = new Panel();
@@ -115,6 +117,33 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private void iconButton3_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color3);
+        }
+
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            Reset();
+        }
+
+        private void Reset()
+        {
+            DisableButton();
+            leftBoarderBtnt.Visible = false;
+            iconCurrentChildForm.IconChar = IconChar.Home;
+            iconCurrentChildForm.IconColor = Color.MediumPurple;
+            lblTitleChildForm.Text = "Home";
+        }
+
+        //Drag Form
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Projeto_Integrador_Construção_do_Sistema
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         ///  Required designer variable.
@@ -91,6 +91,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.buttonCadastrodeUsuario.TabIndex = 5;
             this.buttonCadastrodeUsuario.Text = "Cadastrar";
             this.buttonCadastrodeUsuario.UseVisualStyleBackColor = true;
+            this.buttonCadastrodeUsuario.Click += new System.EventHandler(this.buttonCadastrodeUsuario_Click);
             // 
             // buttonLogin
             // 
@@ -111,7 +112,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.label3.TabIndex = 7;
             this.label3.Text = "Caso não seja registrado ";
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,7 +125,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

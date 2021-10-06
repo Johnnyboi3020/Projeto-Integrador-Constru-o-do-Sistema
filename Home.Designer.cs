@@ -1,7 +1,7 @@
 ﻿
 namespace Projeto_Integrador_Construção_do_Sistema
 {
-    partial class CadastroUsuario
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -57,7 +57,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 450);
+            this.panelMenu.Size = new System.Drawing.Size(220, 566);
             this.panelMenu.TabIndex = 2;
             // 
             // iconButton3
@@ -144,6 +144,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnHome.TabIndex = 25;
             this.btnHome.TabStop = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // panelDesktop
             // 
@@ -151,7 +152,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 0);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(580, 450);
+            this.panelDesktop.Size = new System.Drawing.Size(748, 566);
             this.panelDesktop.TabIndex = 7;
             // 
             // panelShadow
@@ -160,7 +161,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelShadow.Location = new System.Drawing.Point(220, 75);
             this.panelShadow.Name = "panelShadow";
-            this.panelShadow.Size = new System.Drawing.Size(580, 9);
+            this.panelShadow.Size = new System.Drawing.Size(748, 9);
             this.panelShadow.TabIndex = 9;
             // 
             // panelTitleBar
@@ -171,7 +172,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(220, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(580, 75);
+            this.panelTitleBar.Size = new System.Drawing.Size(748, 75);
             this.panelTitleBar.TabIndex = 8;
             // 
             // lblTitleChildForm
@@ -198,16 +199,16 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.iconCurrentChildForm.TabIndex = 0;
             this.iconCurrentChildForm.TabStop = false;
             // 
-            // CadastroUsuario
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(968, 566);
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelMenu);
-            this.Name = "CadastroUsuario";
+            this.Name = "Home";
             this.Text = "CadastroUsuario";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
