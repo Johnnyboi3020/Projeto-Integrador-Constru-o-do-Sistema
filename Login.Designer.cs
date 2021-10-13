@@ -53,6 +53,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(118, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 15);
@@ -62,6 +63,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(118, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 15);
@@ -106,6 +108,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(-1, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(138, 15);
@@ -116,6 +119,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(286, 188);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonLogin);

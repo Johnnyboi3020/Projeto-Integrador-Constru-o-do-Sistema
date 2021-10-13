@@ -60,8 +60,9 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.panel3 = new System.Windows.Forms.Panel();
             this.buttonVoltarnewproduto = new System.Windows.Forms.Button();
             this.buttonCadastrarnewproduto = new System.Windows.Forms.Button();
-            this.buttonPesquisarnewProductor = new System.Windows.Forms.Button();
             this.buttonCorrigirCadastro = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -196,7 +197,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // textCodFornc
             // 
-            this.textCodFornc.Location = new System.Drawing.Point(589, 180);
+            this.textCodFornc.Location = new System.Drawing.Point(589, 174);
             this.textCodFornc.Name = "textCodFornc";
             this.textCodFornc.Size = new System.Drawing.Size(100, 23);
             this.textCodFornc.TabIndex = 23;
@@ -205,7 +206,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(471, 183);
+            this.label9.Location = new System.Drawing.Point(471, 177);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 15);
             this.label9.TabIndex = 22;
@@ -283,7 +284,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             this.linkCadastrodeFornecedor.AutoSize = true;
             this.linkCadastrodeFornecedor.LinkColor = System.Drawing.Color.DodgerBlue;
-            this.linkCadastrodeFornecedor.Location = new System.Drawing.Point(552, 261);
+            this.linkCadastrodeFornecedor.Location = new System.Drawing.Point(589, 210);
             this.linkCadastrodeFornecedor.Name = "linkCadastrodeFornecedor";
             this.linkCadastrodeFornecedor.Size = new System.Drawing.Size(120, 15);
             this.linkCadastrodeFornecedor.TabIndex = 28;
@@ -356,14 +357,14 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel3.Location = new System.Drawing.Point(-1, 315);
+            this.panel3.Location = new System.Drawing.Point(0, 346);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(751, 10);
             this.panel3.TabIndex = 33;
             // 
             // buttonVoltarnewproduto
             // 
-            this.buttonVoltarnewproduto.Location = new System.Drawing.Point(82, 345);
+            this.buttonVoltarnewproduto.Location = new System.Drawing.Point(66, 372);
             this.buttonVoltarnewproduto.Name = "buttonVoltarnewproduto";
             this.buttonVoltarnewproduto.Size = new System.Drawing.Size(75, 23);
             this.buttonVoltarnewproduto.TabIndex = 34;
@@ -372,38 +373,48 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // buttonCadastrarnewproduto
             // 
-            this.buttonCadastrarnewproduto.Location = new System.Drawing.Point(184, 345);
+            this.buttonCadastrarnewproduto.Location = new System.Drawing.Point(168, 372);
             this.buttonCadastrarnewproduto.Name = "buttonCadastrarnewproduto";
             this.buttonCadastrarnewproduto.Size = new System.Drawing.Size(75, 23);
             this.buttonCadastrarnewproduto.TabIndex = 35;
             this.buttonCadastrarnewproduto.Text = "Cadastrar";
             this.buttonCadastrarnewproduto.UseVisualStyleBackColor = true;
             // 
-            // buttonPesquisarnewProductor
-            // 
-            this.buttonPesquisarnewProductor.Location = new System.Drawing.Point(391, 345);
-            this.buttonPesquisarnewProductor.Name = "buttonPesquisarnewProductor";
-            this.buttonPesquisarnewProductor.Size = new System.Drawing.Size(75, 23);
-            this.buttonPesquisarnewProductor.TabIndex = 37;
-            this.buttonPesquisarnewProductor.Text = "Pesquisar";
-            this.buttonPesquisarnewProductor.UseVisualStyleBackColor = true;
-            // 
             // buttonCorrigirCadastro
             // 
-            this.buttonCorrigirCadastro.Location = new System.Drawing.Point(289, 345);
+            this.buttonCorrigirCadastro.Location = new System.Drawing.Point(273, 372);
             this.buttonCorrigirCadastro.Name = "buttonCorrigirCadastro";
             this.buttonCorrigirCadastro.Size = new System.Drawing.Size(75, 23);
             this.buttonCorrigirCadastro.TabIndex = 36;
             this.buttonCorrigirCadastro.Text = "Corrigir";
             this.buttonCorrigirCadastro.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(431, 244);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(258, 96);
+            this.textBox1.TabIndex = 38;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.SystemColors.Control;
+            this.label12.Location = new System.Drawing.Point(341, 286);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(69, 15);
+            this.label12.TabIndex = 37;
+            this.label12.Text = "Observação";
+            // 
             // NewProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(750, 379);
-            this.Controls.Add(this.buttonPesquisarnewProductor);
+            this.ClientSize = new System.Drawing.Size(750, 407);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.buttonCorrigirCadastro);
             this.Controls.Add(this.buttonCadastrarnewproduto);
             this.Controls.Add(this.buttonVoltarnewproduto);
@@ -476,7 +487,8 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button buttonVoltarnewproduto;
         private System.Windows.Forms.Button buttonCadastrarnewproduto;
-        private System.Windows.Forms.Button buttonPesquisarnewProductor;
         private System.Windows.Forms.Button buttonCorrigirCadastro;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label12;
     }
 }

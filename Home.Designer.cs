@@ -30,6 +30,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
@@ -49,7 +50,8 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panelMenu.BackColor = System.Drawing.Color.DarkCyan;
+            this.panelMenu.Controls.Add(this.iconButton4);
             this.panelMenu.Controls.Add(this.iconButton3);
             this.panelMenu.Controls.Add(this.iconButton2);
             this.panelMenu.Controls.Add(this.iconButton1);
@@ -60,8 +62,32 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.panelMenu.Size = new System.Drawing.Size(220, 566);
             this.panelMenu.TabIndex = 2;
             // 
+            // iconButton4
+            // 
+            this.iconButton4.BackColor = System.Drawing.Color.DarkCyan;
+            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton4.FlatAppearance.BorderSize = 0;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.ForeColor = System.Drawing.Color.White;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.FileAlt;
+            this.iconButton4.IconColor = System.Drawing.Color.White;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.IconSize = 32;
+            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.Location = new System.Drawing.Point(0, 320);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton4.Size = new System.Drawing.Size(220, 60);
+            this.iconButton4.TabIndex = 5;
+            this.iconButton4.Text = "Relatorio";
+            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton4.UseVisualStyleBackColor = false;
+            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
+            // 
             // iconButton3
             // 
+            this.iconButton3.BackColor = System.Drawing.Color.DarkCyan;
             this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton3.FlatAppearance.BorderSize = 0;
             this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -79,11 +105,12 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.iconButton3.Text = "Pesquisa";
             this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.iconButton3.UseVisualStyleBackColor = false;
             this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
             // 
             // iconButton2
             // 
+            this.iconButton2.BackColor = System.Drawing.Color.DarkCyan;
             this.iconButton2.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton2.FlatAppearance.BorderSize = 0;
             this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -101,16 +128,17 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.iconButton2.Text = "Novo Produto";
             this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton2.UseVisualStyleBackColor = true;
+            this.iconButton2.UseVisualStyleBackColor = false;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // iconButton1
             // 
+            this.iconButton1.BackColor = System.Drawing.Color.DarkCyan;
             this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton1.FlatAppearance.BorderSize = 0;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Portrait;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconButton1.IconColor = System.Drawing.Color.White;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.IconSize = 32;
@@ -120,10 +148,9 @@ namespace Projeto_Integrador_Construção_do_Sistema
             this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton1.Size = new System.Drawing.Size(220, 60);
             this.iconButton1.TabIndex = 2;
-            this.iconButton1.Text = "Troca de Usuario";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Text = "Home";
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.UseVisualStyleBackColor = false;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // panelLogo
@@ -137,18 +164,17 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // btnHome
             // 
-            this.btnHome.Image = global::Projeto_Integrador_Construção_do_Sistema.Properties.Resources.WhatsApp_Image_2021_10_06_at_13_58_27;
+            this.btnHome.Image = global::Projeto_Integrador_Construção_do_Sistema.Properties.Resources.logoBD;
             this.btnHome.Location = new System.Drawing.Point(43, 3);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(126, 135);
             this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnHome.TabIndex = 25;
             this.btnHome.TabStop = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // iconCurrentChildForm
             // 
-            this.iconCurrentChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(68)))));
+            this.iconCurrentChildForm.BackColor = System.Drawing.Color.Teal;
             this.iconCurrentChildForm.ForeColor = System.Drawing.Color.GhostWhite;
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconCurrentChildForm.IconColor = System.Drawing.Color.GhostWhite;
@@ -172,7 +198,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panelTitleBar
             // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(68)))));
+            this.panelTitleBar.BackColor = System.Drawing.Color.DarkCyan;
             this.panelTitleBar.Controls.Add(this.lblTitleChildForm);
             this.panelTitleBar.Controls.Add(this.iconCurrentChildForm);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -183,7 +209,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panelShadow
             // 
-            this.panelShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.panelShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelShadow.Location = new System.Drawing.Point(220, 75);
             this.panelShadow.Name = "panelShadow";
@@ -192,7 +218,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panelDesktop
             // 
-            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panelDesktop.BackColor = System.Drawing.Color.LightCyan;
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 84);
             this.panelDesktop.Name = "panelDesktop";
@@ -225,7 +251,6 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private System.Windows.Forms.Panel panelMenu;
         private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox btnHome;
         private FontAwesome.Sharp.IconPictureBox iconCurrentChildForm;
@@ -233,5 +258,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Panel panelShadow;
         private System.Windows.Forms.Panel panelDesktop;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

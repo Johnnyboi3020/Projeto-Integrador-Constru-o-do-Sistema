@@ -96,7 +96,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(357, 228);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.textBox2);

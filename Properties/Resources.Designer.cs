@@ -63,6 +63,16 @@ namespace Projeto_Integrador_Construção_do_Sistema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logoBD {
+            get {
+                object obj = ResourceManager.GetObject("logoBD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2021_10_06_at_13_58_27 {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2021-10-06 at 13.58.27", resourceCulture);

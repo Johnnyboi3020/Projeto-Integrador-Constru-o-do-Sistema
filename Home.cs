@@ -24,12 +24,12 @@ namespace Projeto_Integrador_Construção_do_Sistema
             leftBoarderBtnt = new Panel();
             leftBoarderBtnt.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBoarderBtnt);
+
             //Form
             this.Text = string.Empty;
-            this.ControlBox = false;
+            this.ControlBox = true;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
-
         }
         //Structs
         private struct RGBColor
@@ -38,12 +38,8 @@ namespace Projeto_Integrador_Construção_do_Sistema
             public static Color color2 = Color.FromArgb(249, 118, 176);
             public static Color color3 = Color.FromArgb(253, 138, 114);
             public static Color color4 = Color.FromArgb(95, 77, 221);
-
-            //para caso eu for usa futuramente ou adicinar um botao.
-            /*public static Color color5 = Color.FromArgb(249, 88, 155);
-            public static Color color6 = Color.FromArgb(24, 161, 251);*/
-
-
+            public static Color color5 = Color.FromArgb(249, 88, 155);
+            public static Color color6 = Color.FromArgb(24, 161, 251);
         }
 
         //Methods
@@ -77,9 +73,9 @@ namespace Projeto_Integrador_Construção_do_Sistema
             if (currentBtn != null)
             {
                 currentBtn.BackColor = Color.FromArgb(31, 30, 68);
-                currentBtn.ForeColor = Color.Gainsboro;
+                currentBtn.ForeColor = Color.DarkCyan;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
-                currentBtn.IconColor = Color.Gainsboro;
+                currentBtn.IconColor = Color.DarkCyan;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
                 currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
             }
@@ -106,7 +102,8 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private void iconButton1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color1);
-            OpenChildForm(new TrocadeUsuario());
+            OpenChildForm(new Logo());
+            Reset();
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -121,12 +118,11 @@ namespace Projeto_Integrador_Construção_do_Sistema
             OpenChildForm(new Pesquisa());
         }
 
-
-        private void btnHome_Click(object sender, EventArgs e)
+        private void iconButton4_Click(object sender, EventArgs e)
         {
-            Reset();
-        }
+            ActivateButton(sender, RGBColor.color4);
 
+        }
         private void Reset()
         {
             DisableButton();
