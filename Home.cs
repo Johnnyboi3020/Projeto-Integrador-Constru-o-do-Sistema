@@ -106,12 +106,13 @@ namespace Projeto_Integrador_Construção_do_Sistema
         private void iconButton1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color1);
-           /* OpenChildForm();*/
+            OpenChildForm(new TrocadeUsuario());
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color2);
+            OpenChildForm(new NewProdutos());
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
