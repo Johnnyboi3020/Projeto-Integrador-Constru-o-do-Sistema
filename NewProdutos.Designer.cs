@@ -68,7 +68,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 15);
@@ -78,7 +78,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(38, 32);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 15);
@@ -102,7 +102,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label3.Location = new System.Drawing.Point(38, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 15);
@@ -119,7 +119,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label4.Location = new System.Drawing.Point(471, 18);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 15);
@@ -136,7 +136,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label5.Location = new System.Drawing.Point(471, 84);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 15);
@@ -146,7 +146,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label6.Location = new System.Drawing.Point(471, 49);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 15);
@@ -155,7 +155,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
             this.panel1.Location = new System.Drawing.Point(-2, 110);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(753, 10);
@@ -171,7 +171,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label7.Location = new System.Drawing.Point(38, 195);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 15);
@@ -188,7 +188,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label8.Location = new System.Drawing.Point(38, 150);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(53, 15);
@@ -205,7 +205,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.SystemColors.Control;
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label9.Location = new System.Drawing.Point(471, 177);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 15);
@@ -222,7 +222,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.Control;
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label10.Location = new System.Drawing.Point(471, 138);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(67, 15);
@@ -232,7 +232,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // checkBoxAltomatico
             // 
             this.checkBoxAltomatico.AutoSize = true;
-            this.checkBoxAltomatico.ForeColor = System.Drawing.SystemColors.Control;
+            this.checkBoxAltomatico.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBoxAltomatico.Location = new System.Drawing.Point(263, 142);
             this.checkBoxAltomatico.Name = "checkBoxAltomatico";
             this.checkBoxAltomatico.Size = new System.Drawing.Size(85, 19);
@@ -243,7 +243,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // checkBoxManterpreçodecusto
             // 
             this.checkBoxManterpreçodecusto.AutoSize = true;
-            this.checkBoxManterpreçodecusto.ForeColor = System.Drawing.SystemColors.Control;
+            this.checkBoxManterpreçodecusto.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBoxManterpreçodecusto.Location = new System.Drawing.Point(263, 188);
             this.checkBoxManterpreçodecusto.Name = "checkBoxManterpreçodecusto";
             this.checkBoxManterpreçodecusto.Size = new System.Drawing.Size(147, 19);
@@ -274,7 +274,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel2.BackColor = System.Drawing.Color.DarkCyan;
             this.panel2.Location = new System.Drawing.Point(-1, 228);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(752, 10);
@@ -283,7 +283,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // linkCadastrodeFornecedor
             // 
             this.linkCadastrodeFornecedor.AutoSize = true;
-            this.linkCadastrodeFornecedor.LinkColor = System.Drawing.Color.DodgerBlue;
+            this.linkCadastrodeFornecedor.LinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkCadastrodeFornecedor.Location = new System.Drawing.Point(589, 210);
             this.linkCadastrodeFornecedor.Name = "linkCadastrodeFornecedor";
             this.linkCadastrodeFornecedor.Size = new System.Drawing.Size(120, 15);
@@ -316,7 +316,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.SystemColors.Control;
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label11.Location = new System.Drawing.Point(38, 257);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(62, 15);
@@ -347,7 +347,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // labelNCM
             // 
             this.labelNCM.AutoSize = true;
-            this.labelNCM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelNCM.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelNCM.Location = new System.Drawing.Point(38, 286);
             this.labelNCM.Name = "labelNCM";
             this.labelNCM.Size = new System.Drawing.Size(35, 15);
@@ -356,7 +356,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel3.BackColor = System.Drawing.Color.DarkCyan;
             this.panel3.Location = new System.Drawing.Point(0, 346);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(751, 10);
@@ -400,8 +400,8 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(341, 286);
+            this.label12.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label12.Location = new System.Drawing.Point(341, 257);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(69, 15);
             this.label12.TabIndex = 37;
@@ -411,7 +411,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(750, 407);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label12);

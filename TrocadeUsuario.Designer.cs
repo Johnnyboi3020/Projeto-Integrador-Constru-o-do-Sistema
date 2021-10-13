@@ -65,7 +65,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(135, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 15);
@@ -75,7 +75,7 @@ namespace Projeto_Integrador_Construção_do_Sistema
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(135, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 15);
